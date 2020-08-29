@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <!-- MDUI CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/mdui@1.0.0/dist/css/mdui.min.css"
+      integrity="sha384-2PJ2u4NYg6jCNNpv3i1hK9AoAqODy6CdiC+gYiL2DVx+ku5wzJMFNdE3RoWfBIRP"
+      crossorigin="anonymous"
+    />
+    <title>Ravi's site</title>
+  </head>
+	<body class="mdui-appbar-with-toolbar mdui-appbar-with-tab mdui-theme-layout-auto">
+	  
+	  <div class="mdui-appbar mdui-appbar-fixed">
+	    <div class="mdui-toolbar mdui-color-blue">
+	      <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
+	      <a href="javascript:;" class="mdui-typo-title">Ravi's site</a>
+	      <div class="mdui-toolbar-spacer"></div>
+	      <a href="javascript:daynight();" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '夜间模式'}">
+	      <i class="mdui-icon material-icons">&#xe3ab;</i>
+	      </a>
+	    </div>
+	    <div class="mdui-tab mdui-color-blue mdui-tab-centered" mdui-tab>
+	      <a href="#tab1" class="mdui-ripple mdui-ripple-white">Home</a>
+		  <a href="#tab2" class="mdui-ripple mdui-ripple-white">About</a>
+	      <a href="#tab3" class="mdui-ripple mdui-ripple-white">Blog</a>
+	      <a href="#tab4" class="mdui-ripple mdui-ripple-white">Site Status</a>
+		  <a href="#tab5" class="mdui-ripple mdui-ripple-white">Github</a>
+		  <a href="#tab6" class="mdui-ripple mdui-ripple-white">Luogu</a>
+	    </div>
+	  </div>
+	<div class="mdui-container-fluid">
+	    <div id="tab1">
+			<div class="mdui-card-content" style="margin-left:calc(23% + 14px);position:relative;">
+			<div class="mdui-card mdui-col-xs-8">
+			<div class="mdui-card-content mdui-shadow-4" style="font-size: 150%;">
+			<h3 align="center">👋 Hello! I'm Zhan Yaoxiang</h3>
+			<p align="center">
+			<a href="https://raizhan.top" style="text-decoration:none;color:#3452b4;">Website</a>&nbsp;•&nbsp;
+			<a href="https://www.ravi.cool" style="text-decoration:none;color:#3452b4;">Blog</a>&nbsp;•&nbsp;
+			<a href="https://github.com/ravizhan" style="text-decoration:none;color:#3452b4;">GitHub</a>&nbsp;•&nbsp;
+			<a href="https://gitee.com/ravizhan" style="text-decoration:none;color:#3452b4;">Gitee</a>&nbsp;•&nbsp;
+			<a href="mailto:i@ravizhan.top" style="text-decoration:none;color:#3452b4;"> Email</a>
+			</p>
+			<p align="center">I am 14 years old now</p>
+			</div>
+		</div>
+		</div>
+		</div>
+		<div id="tab2">
+			<div class="mdui-card-content" style="margin-left:calc(23% + 14px);position:relative;">
+				<div class="mdui-card mdui-col-xs-8">
+					<p>TODO</p>
+				</div>
+			</div>
+		</div>
+		<div id="tab3">
+			<div class="mdui-card-content" style="margin-left:calc(23% + 14px);position:relative;">
+				<div class="mdui-card mdui-col-xs-8">
+					<p>TODO</p>
+				</div>
+			</div>
+		</div>
+		<div id="tab4">
+			<div class="mdui-card-content" style="margin-left:calc(28% + 8px);position:relative;width:60%">
+			<div class="mdui-card mdui-col-xs-8">
+			<div class="mdui-card-media mdui-shadow-4">
+			<iframe src="https://status.ravi.cool/" id="status" width="99%" height="535" frameborder="0" scrolling="no" style="margin-top:10px;"></iframe>
+			<div class="mdui-card-actions">
+			<a class="mdui-btn mdui-ripple" href="https://www.luogu.com.cn/user/336970" target="_blank">More</a>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+	    <div id="tab5">
+		<div class="mdui-card-content" style="margin-left:calc(28% + 8px);position:relative;width:60%">
+		<div class="mdui-card mdui-col-xs-8">
+		<div class="mdui-card-media mdui-shadow-4">
+		<img src="https://github-readme-stats.vercel.app/api?username=ravizhan&show_icons=true" style="padding:12px;width:96.6%" id="github1">
+		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravizhan&layout=compact" style="padding:12px;width:96.6%" id="github2">
+		<div class="mdui-card-actions">
+		<a class="mdui-btn mdui-ripple" href="https://github.com/ravizhan" target="_blank">More</a>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div id="tab6">
+			<div class="mdui-card-content" style="margin-left:calc(28% + 8px);position:relative;width:60%">
+			<div class="mdui-card mdui-col-xs-8">
+			<div class="mdui-card-media mdui-shadow-4">
+			<img src="https://luogu.vercel.app/api?id=336970" style="padding:12px;width:97.4%"  id="luogu">
+			<div class="mdui-card-actions">
+			<a class="mdui-btn mdui-ripple" href="https://www.luogu.com.cn/user/336970" target="_blank">More</a>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+		
+		
+    <!-- MDUI JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/mdui@1.0.0/dist/js/mdui.min.js"
+      integrity="sha384-aB8rnkAu/GBsQ1q6dwTySnlrrbhqDwrDnpVHR2Wgm8pWLbwUnzDcIROX3VvCbaK+"
+      crossorigin="anonymous"
+    ></script>
+	<script>
+	function img_src_dark(){
+		var obj = document.getElementById("github1");
+		obj.src = "https://github-readme-stats.vercel.app/api?username=ravizhan&show_icons=true&title_color=fff&icon_color=03a9f4&text_color=fff&bg_color=424242";
+		var obj = document.getElementById("github2");
+		obj.src = "https://github-readme-stats.vercel.app/api/top-langs/?username=ravizhan&layout=compact&title_color=fff&icon_color=03a9f4&text_color=fff&bg_color=424242";
+		var obj = document.getElementById("luogu");
+		obj.src = "https://luogu.vercel.app/api?id=336970&dark_mode=true";
+		var obj = document.getElementById("status");
+		obj.src = "https://status.ravi.cool/?dark_mode=true";
+	}
+	function img_src_light(){
+		var obj = document.getElementById("github1");
+		obj.src = "https://github-readme-stats.vercel.app/api?username=ravizhan&show_icons=true";
+		var obj = document.getElementById("github2");
+		obj.src = "https://github-readme-stats.vercel.app/api/top-langs/?username=ravizhan&layout=compact";
+		var obj = document.getElementById("luogu");
+		obj.src = "https://luogu.vercel.app/api?id=336970";
+		var obj = document.getElementById("status");
+		obj.src = "https://status.ravi.cool/";
+	}
+	function daynight() {
+		if ($('body').hasClass('mdui-theme-layout-dark')) {
+			$('body').removeClass('mdui-theme-layout-dark');
+			$('body').addClass('mdui-theme-layout-light');
+			img_src_light()
+			return;
+		}
+		$('body').removeClass('mdui-theme-layout-light');
+		$('body').removeClass('mdui-theme-layout-auto');
+		$('body').addClass('mdui-theme-layout-dark');
+		img_src_dark()
+		return;
+	    }
+	</script>
+  </body>
+</html>
