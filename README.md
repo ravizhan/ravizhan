@@ -10,5 +10,5 @@
 
 ### Github Stats
 
-<a href="https://github.com/ravizhan"><img src="https://github-readme-stats.vercel.app/api?username=ravizhan&show_icons=true&layout=compact&count_private=true&hide_title=true&theme=default" style="width: 58%; max-width: 58%; min-width: 58%;">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravizhan&layout=compact&count_private=true&theme=default" style="width: 40%; max-width: 40%; min-width: 40%;"></a>
+<a href="https://github.com/ravizhan"><img src="https://github-readme-stats.vercel.app/api?username=ravizhan&show_icons=true&layout=compact&count_private=true&hide_title=true&theme=default" style="width: 50%; max-width: 50%; min-width: 50%;">
+<img src="https://raw.githubusercontent.com/ravizhan/github-stats/master/generated/overview.svg" style="width: 40%; max-width: 40%; min-width: 40%;"></a>
