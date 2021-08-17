@@ -1,7 +1,6 @@
-<h3 align="center">👋 Hello! I'm Zhan Yaoxiang.</h3>
+<h3 align="center">👋 Hello! I'm RaviZhan.</h3>
 
 <p align="center">
-<a href="https://raizhan.top">Website</a>&nbsp;•&nbsp;
 <a href="https://www.ravi.cool">Blog</a>&nbsp;•&nbsp;
 <a href="https://github.com/ravizhan">GitHub</a>&nbsp;•&nbsp;
 <a href="https://gitee.com/ravizhan">Gitee</a>&nbsp;•&nbsp;
