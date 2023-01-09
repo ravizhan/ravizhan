@@ -4,7 +4,7 @@
 <a href="https://www.ravi.cool">Blog</a>&nbsp;•&nbsp;
 <a href="https://github.com/ravizhan">GitHub</a>&nbsp;•&nbsp;
 <a href="https://gitee.com/ravizhan">Gitee</a>&nbsp;•&nbsp;
-<a href="mailto:i@ravi.cool">Email</a>
+<a href="mailto:ravizhan@hotmail.com">Email</a>
 </p>
 
 ### Github Stats
