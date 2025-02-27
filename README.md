@@ -8,7 +8,7 @@
 <h4 align="center">Github Stats</h4>
 
 <div>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact" style="width: 33%; max-width: 33%; min-width: 33%;">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravizhan" style="width: 33%; max-width: 33%; min-width: 33%;">
 <img src="https://github-readme-stats.vercel.app/api?username=ravizhan&show_icons=true&layout=compact&count_private=true&hide_title=true&theme=default" style="width: 33%; max-width: 33%; min-width: 33%;">
 <img src="https://raw.githubusercontent.com/ravizhan/github-stats/master/generated/overview.svg" style="width: 33%; max-width: 33%; min-width: 33%;">
 </div>
