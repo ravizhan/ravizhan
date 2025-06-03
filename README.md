@@ -8,6 +8,6 @@
 <h4 align="center">Github Stats</h4>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravizhan&size_weight=0.5&count_weight=0.5&layout=donut">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravizhan&size_weight=0.1&layout=donut">
 <img src="https://github-readme-stats.vercel.app/api?username=ravizhan&show_icons=true&count_private=true&hide_title=true&theme=default">
 </div>
